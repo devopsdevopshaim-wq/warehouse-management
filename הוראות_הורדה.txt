@@ -1,0 +1,16 @@
+קובץ לדוגמה להורדת סרטון
+
+קישור שהוזן: https://zoom.us/rec/play/2o9e9IAdnhMuGulwh76pYs8lN1cbvOcNFnxANYrwH8AZWXtQ2kjG1InBAuiEWAeKXTwjup1oP8qTVQ-E.E3L0HmKv8Y4AznA5
+
+לתשומת לבך: זהו קובץ דוגמה בלבד.
+להורדה אמיתית של סרטון, השתמש באחת השיטות הבאות:
+
+1. yt-dlp (מומלץ) - כלי שורת פקודה חינמי וחזק
+   התקנה: pip install yt-dlp
+   הורדה: yt-dlp "https://zoom.us/rec/play/2o9e9IAdnhMuGulwh76pYs8lN1cbvOcNFnxANYrwH8AZWXtQ2kjG1InBAuiEWAeKXTwjup1oP8qTVQ-E.E3L0HmKv8Y4AznA5"
+
+2. 4K Video Downloader - תוכנה חינמית עם ממשק
+
+3. אתר מקוון כמו y2mate.com
+
+זכויות יוצרים: וודא שיש לך הרשאה להוריד תוכן זה.

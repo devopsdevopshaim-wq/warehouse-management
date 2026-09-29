@@ -1,0 +1,109 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "code": "ELEC-001",
+      "name": "מטען סלולרי מהיר",
+      "category": "electronics",
+      "quantity": 42,
+      "location": "מדף A3",
+      "minStock": 10,
+      "price": 89.9,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80",
+      "notes": "מטען מהיר עם טכנולוגיית PD\nמתאים למכשירים מרובים\nאחריות לשנתיים",
+      "status": "במלאי",
+      "lastUpdated": "2026-01-19"
+    },
+    {
+      "id": 2,
+      "code": "TOOL-012",
+      "name": "פטיש קל בטונגסטן",
+      "category": "tools",
+      "quantity": 15,
+      "location": "מדף B2",
+      "minStock": 5,
+      "price": 45.5,
+      "image": "https://images.unsplash.com/photo-1581132169645-bbb077dd1d1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80",
+      "notes": "פטיש קל משקל\nידית אנטי-החלקה\nמתאים לעבודות עץ ומתכת",
+      "status": "רמה נמוכה",
+      "lastUpdated": "2026-01-19"
+    }
+  ],
+  "spareParts": [
+    {
+      "id": 1,
+      "partNumber": "SP-001",
+      "name": "מנוע חשמלי 12V",
+      "description": "מנוע חשמלי למכונות תעשייתיות",
+      "compatibleModels": "Model X, Model Y, Model Z",
+      "quantity": 8,
+      "price": 450,
+      "minStock": 2,
+      "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80",
+      "notes": "מנוע מקורי מיצרן\nמתח עבודה: 12V DC\nהספק: 250W",
+      "status": "במלאי",
+      "lastUpdated": "2026-01-19"
+    },
+    {
+      "id": 2,
+      "partNumber": "SP-002",
+      "name": "ממסר תרמי",
+      "description": "ממסר תרמי להגנה מפני עומס יתר",
+      "compatibleModels": "Model A, Model B",
+      "quantity": 1,
+      "price": 89.9,
+      "minStock": 3,
+      "image": "https://images.unsplash.com/photo-1581093450334-5b2d0c6d6866?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80",
+      "notes": "טווח טמפרטורה: 0-100°C\nזרם מקסימלי: 10A",
+      "status": "רמה נמוכה",
+      "lastUpdated": "2026-01-19"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "ORD-2023-001",
+      "customer": "אביב אלקטרוניקה",
+      "date": "2026-01-19",
+      "items": [
+        "ELEC-001",
+        "ELEC-002"
+      ],
+      "totalAmount": 1250,
+      "status": "ממתין לליקוט",
+      "notes": "לקוח VIP - לטפל בהקדם",
+      "lastUpdated": "2026-01-19"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "code": "SUP-001",
+      "name": "אלקטרו-ספק בע\"מ",
+      "category": "electronics",
+      "phone": "03-1234567",
+      "email": "info@electro-supply.co.il",
+      "address": "תל אביב, רוטשילד 10",
+      "notes": "ספק אמין, משלוחים מהירים\nאחריות על כל המוצרים",
+      "status": "פעיל",
+      "lastUpdated": "2026-01-19"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1768836991614.773,
+      "type": "warning",
+      "message": "חלק חילוף SP-002 - ממסר תרמי במלאי נמוך (נותרו 1 יחידות)",
+      "date": "2026-01-19",
+      "priority": "medium",
+      "itemType": "sparePart",
+      "itemId": 2
+    }
+  ],
+  "managerSettings": {
+    "name": "חיים קריספין",
+    "title": "מנהל מחסן",
+    "initials": "מנהל"
+  },
+  "lastBackup": "2026-01-19T15:36:31.614Z"
+}
